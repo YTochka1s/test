@@ -1,0 +1,145 @@
+.profile_us_p {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+}
+
+.profile_us_p p {
+    font-family: "Inter", "Inter Placeholder", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.profile_us__container {
+    align-content: center;
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 0px;
+    height: min-content;
+    justify-content: center;
+    overflow: hidden;
+    padding: 100px;
+    position: relative;
+    width: 1200px;
+}
+
+.ahah {
+    display: grid;
+    flex: none;
+    grid-auto-rows: min-content;
+    grid-template-columns: 420px 2fr;
+    grid-template-rows: repeat(1, min-content);
+}
+
+.profile_us_cont_img {
+    aspect-ratio: 1.3333333333333333 / 1;
+    border-top-left-radius: 20px;
+    flex: none;
+    height: 320px;
+    overflow: hidden;
+    position: relative;
+    width: 320px;
+    will-change: var(--framer-will-change-override, transform);
+    box-shadow: 7px 8px 13px 2px #c8baba;
+}
+
+.profile_us_img {
+    width: 320px;
+    height: 320px;
+}
+
+.profile_us__grid {
+    display: grid;
+    flex: none;
+    gap: 60px;
+    grid-auto-rows: min-content;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-template-rows: repeat(1, min-content);
+    height: min-content;
+    justify-content: center;
+    max-width: 1000px;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+.profile_us__card1 {
+    align-content: center;
+    align-items: center;
+    align-self: start;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 30px;
+    height: auto;
+    justify-content: center;
+    justify-self: start;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+.profile_us__card_ots {
+    align-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10px;
+    height: auto;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+.card_title {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+}
+
+.card_title h2 {
+    font-family: "Inter", "Inter Placeholder", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.8px;
+    line-height: 1.5em;
+    text-align: left;
+    color: rgb(51, 51, 51);
+}
+
+.card_description {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+}
+
+.card_description h3 {
+    font-family: "Inter", "Inter Placeholder", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    line-height: 1.4em;
+    text-align: left;
+    color: var(--token-1021654d-251a-4750-952b-de3f7005260e, rgb(136, 136, 136));
+}
